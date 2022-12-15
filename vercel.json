@@ -1,16 +1,15 @@
 {
     "version": 2,
-    "name": "Todo-List-app",
     "builds": [
        { 
         "src": "app.js", 
-        "use": "@now/node" 
+        "use": "@vercel/node" 
     }
     ],
     "routes": [
        { 
         "src": "/(.*)", 
-        "dest": "app.js" 
+        "dest": "/app.js" 
     }
     ]
  }
